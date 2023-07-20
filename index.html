@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VACSEN: A Visualization Approach for Noise Awareness in Quantum Computing</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="./style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="container content_resize">
+                <div class="row">
+                    <div class="span10">
+                        <div id="header">
+                            <h1 style="padding-left:0; color:black;font-size:30px"><i>VACSEN</i>: A Visualization Approach for Noise Awareness in Quantum Computing</h1>
+                            <h4 style="padding-left: 0" class="authors">
+                                <a href="https://shaolun-ruan.com/" target="_blank">Shaolun Ruan</a>
+                                , <a href="http://yong-wang.org/" target="_blank">Yong Wang</a>
+                                , <a href="https://www.gmu.edu/profiles/wjiang8" target="_blank">Weiwen Jiang</a>
+                                , <a href="https://yingmao.github.io/" target="_blank">Ying Mao</a>
+                                , <a href="https://www.kent.edu/cs/qiang-guan" target="_blank">Qiang Guan</a>
+                            </h4>
+                        </div>
+                        <br>
+                        <div id="figures">
+                            <img alt="" src="./images/teaser.png" class="img-polaroid img-responsive img-thumbnail" style="margin-left: 7%" width="80%">
+                            <p style="text-align:justify; margin-top: 20px;">VACSEN facilitates noise awareness in quantum computing via novel and intuitive visualizations. Computer Evolution View (A) allows the assessment for all quantum computers based on a temporal analysis for multiple performance metrics. Circuit Filtering View (B) supports the filtering for the potential optimal compiled circuits. Circuit Comparison View (C) supports the in-depth comparison regarding the performance of qubits or quantum gates and corresponding usages. Fidelity Comparison View (E) shows the fidelity distribution of the execution result. Probability Distribution View (F) visualizes the results of state distribution for users in quantum computing.</p>
+                        </div>
+                        <div id="description">
+                            <h2>Description</h2>
+                            <p style="text-align:justify">Quantum computing has submitted considerable public attention due to its exponential speedup over classical computing. Despite its advantages, today's quantum computers intrinsically suffer from noise and are error-prone. To guarantee the high fidelity of the execution result of a quantum algorithm, it is crucial to inform users of the noises of the used quantum computer and the compiled physical circuits. However, an intuitive and systematic way to make users aware of the quantum computing noise is still missing. In this paper, we fill the gap by proposing a novel visualization approach to achieve noise-aware quantum computing. It provides a holistic picture of the noise of quantum computing through multiple interactively coordinated views: a computer evolution view with a circuit-like design overviews the temporal evolution of the noises of different quantum computers, a compiled circuit filtering view facilitates quick filtering of multiple compiled physical circuits for the same quantum algorithm, and a circuit comparison view with a coupled bar chart enable detailed comparison of the filtered compiled circuits. We extensively evaluate the performance of VACSEN through two case studies on quantum algorithms of different scales and in-depth interviews with 12 quantum computing users. The results demonstrate the effectiveness and usability of VACSEN in achieving noise-aware quantum computing.</p>
+                        </div>
+                        <div id="materials">
+                            <h2>System</h2>
+                            <p style="text-align:justify">You can access the online visual analytics system via this <a href="https://vacsensystem.github.io/" class="link" target="_blank">link</a>.
+                            </br> 
+                            <span style="color: blue; font-style: italic;">(A monitor with a resolution of 1920 x 1080 is preferred.)</span>
+                        </p>
+                        </div>
+                        <div id="materials">
+                            <h2>Value</h2>
+                            <p style="text-align:justify">
+                                Our tutorial proposal "<span style="font-style: italic">QuantumFlow+VACSEN: A Visualization System for Quantum Neural Networks on Noisy Quantum Devices</span>", introducing the usage of VACSEN, has been accepted by the <i>IEEE Quantum Week 2022</i> (the IEEE International Conference on Quantum Computing and Engineering), which is a top-tier international conference in quantum computing that will be held in Broomfield, Colorado, U.S. from September 18th to 23rd, 2022. The program can be found via this <a href="https://qce.quantum.ieee.org/2022/tutorials-program/" class="link" target="_blank">link</a>.</p>
+                        </div>
+                        <div id="materials">
+                            <h2>Dataset</h2>
+                            <p style="text-align:justify"><code>IBMQ_calibration_data</code> includes the calibration data of 11 quantum computers on the IBM Quantum platform from July 2021 to January 2022. The dataset contains multiple hardware properties (e.g., decoherence time, error rate, frequency, gate time, etc.) of each quantum computer. The download link is available in the <code>Materials > Dataset</code> below.  </p>
+                        </div>
+                        <div id="materials">
+                            <h2>Materials</h2>
+                            <div class="materials">
+                                <a href="./docs/VIS22_Quantum_Computing_Vis (17).pdf" class="link" target="_blank">PDF</a>
+                                <!-- |<a href="https://github.com/VIDA-Lab/VACSEN" class="link" target="_blank">Github</a> -->
+                                |<a href="./docs/Appendix.pdf" class="link" target="_blank">Appendix</a>
+                                | <a href="https://drive.google.com/file/d/1gbJi9VH785uV5sK6MiLgKdD6_Gysdf1p/view?usp=sharing" class="link" target="_blank">Dataset</a>
+                                <!-- | <a href="" class="link" target="_blank">Tutorial</a> -->
+                            </div>
+                        </div>
+                        <div id="publication">
+                            <h2>Publication</h2>
+                            <p>Shaolun Ruan, Yong Wang, Weiwen Jiang, Ying Mao, and Qiang Guan. 2022. VACSEN: A Visualization Approach for Noise Awareness in Quantum Computing. IEEE Transactions on Visualization and Computer Graphics (Proceedings of IEEE VIS 2022). To Appear.</p>
+                        </div>
+                        <div id="acknowledgements">
+                            <h2>Acknowledgements</h2>
+                            <p>This research was supported by the Lee Kong Chian Fellowship awarded to Yong Wang by Singapore Management University.
+                                Qiang Guan is supported by US National Science Foundation CCF-2217021 and IBM quantum hub at NC State.
+                                We would like to thank the participants in our user interviews and anonymous reviewers for their feedback.
+                            </p>
+                        </div>
+                        </br>
+                        <div>
+                            <h2>Video</h2>
+                            <p style="text-align:justify">The demo video of VACSEN:</p>
+                            <iframe src="https://player.vimeo.com/video/697869065?h=58687c75c8"style="width: 960px;height: 480px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_resize">
+                    <p class="lf">Copyright © 2022 Shaolun Ruan. All Rights Reserved.</p>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </body>
+</html>
